@@ -7,7 +7,7 @@ This is my personal portfolio website.
 
 alixbarreaux.github.io
 
-# HOW DO TAKE A LOOK AT THE SOURCE PROJECT?
+# HOW DO I TAKE A LOOK AT THE SOURCE PROJECT?
 
 1) Download the project.
 

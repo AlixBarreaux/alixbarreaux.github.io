@@ -32,14 +32,14 @@ html, body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* 
- * Background colors 
+/*
+ * Background colors
  */
 .blue-bg {
   background-color: #196fc2;
 }
 
-/* 
+/*
  * Button
  */
 .btn {
@@ -74,8 +74,8 @@ html, body {
   border-color: #196fc2;
 }
 
-/* 
- * Rectangle 
+/*
+ * Rectangle
  */
 .rectangle,
 .big-rectangle {
@@ -496,6 +496,14 @@ html, body {
   font-size: 28px;
   color: #ffffff;
 }
+
+/* Begin Custom Section */
+
+#hero-name {
+  color: orange;
+}
+
+/* End Custom Section */
 
 @-webkit-keyframes home-arrow-down {
   from {
@@ -1447,7 +1455,7 @@ html, body {
   margin: 0 auto;
 }
 
-.team-member .team-member-front .team-member-front-name {
+.team-member .team-member-front .team-member-front-description {
   text-align: center;
   margin: 20px 0 0;
   font-weight: 600;
@@ -1456,7 +1464,7 @@ html, body {
 .team-member .team-member-back {
   padding: 0 20px;
   display: table;
-  background: #196fc2;
+  background: #efc026;
   text-align: center;
   color: #ffffff;
   transform: rotateY(-180deg);
@@ -2296,7 +2304,7 @@ textarea.form-control {
   }
 }
 
-/* MODALS 
+/* MODALS
 ================================================== */
 .modal.fade-scale {
   transform: scale(0);
