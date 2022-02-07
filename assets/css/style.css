@@ -1987,7 +1987,7 @@ html, body {
 
 .portfolio-item .portfolio-item-thumb:after {
   content: '';
-  background-color: #196fc2;
+  background-color: rgba(66, 38, 128, 0.7);
   position: absolute;
   left: 0;
   right: 0;
@@ -2074,7 +2074,12 @@ html, body {
 .portfolio-item:hover .portfolio-item-thumb .rectangle:hover {
   background-color: #196fc2;
   border-color: #196fc2;
-  color: #ffffff;
+  color: #ffffff;*
+}
+
+
+.portfolio-info {
+  background-color: green;
 }
 
 .portfolio-item:hover .portfolio-info {
