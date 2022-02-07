@@ -685,8 +685,12 @@ html, body {
   background-color: #422680;
 }
 
-.section-team {
+.section-projects {
   background-color: #280659;
+}
+
+.section-coding-challenges {
+  background-color: #341671;
 }
 
 .site-section h2 {
@@ -704,7 +708,7 @@ html, body {
   margin: 15px 0 0;
   font-size: 16px;
   line-height: 16px;
-  color: #666;
+  color: #ffffff;
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
@@ -1548,6 +1552,7 @@ html, body {
   text-align: center;
   margin: 20px 0 0;
   font-weight: 600;
+  color: #ffffff
 }
 
 .team-member .team-member-back {
@@ -2104,7 +2109,7 @@ html, body {
 
 @media only screen and (max-width: 479px) {
   /* Section: Portfolio */
-  .section-works .col-xs-6 {
+  .section-skills .col-xs-6 {
     width: 100%;
   }
 }
