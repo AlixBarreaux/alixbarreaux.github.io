@@ -1,9 +1,86 @@
 /*
+  FOR THE READER
+  Please read at the top of index.html!
+
  * Theme Name: Pixel Perfect Portfolio
  * Author: Pixel Perfect
  * Author URI/Mail: pixelperfectmk@gmail.com
  * Version: 1.0
  */
+
+.container-custom {
+  background-color: #33177a;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.about-section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about-section img {
+  margin-bottom: 5%;
+  width: auto;
+  height: 33vh;
+}
+
+
+.about-section h2 {
+  padding-top: 5%;
+  margin-bottom: 5%;
+  font-size: 35px;
+  color: #28c177;
+}
+
+
+.about-section p {
+  font-size: 18px;
+  color: #ffffff;
+}
+/*
+#about-content {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+}
+
+#about-image-container {
+  margin-right: 5%;
+  text-align: center;
+}
+
+#about-image {
+  float: left;
+}
+
+#about-text {
+  background-color: green;
+  text-align: center;
+}
+
+
+@media all and (max-width: 600px) {
+  #about-image {
+    float: none;
+  }
+}
+*/
+
+#about-text {
+  background-color: green;
+}
+
+.about-section__person-image {
+  width: 50%;
+  height: auto;
+}
+
+
+
+
 
 
 /* CUSTOM RESETS
@@ -497,13 +574,11 @@ html, body {
   color: #ffffff;
 }
 
-/* Begin Custom Section */
 
 #hero-name {
   color: orange;
 }
 
-/* End Custom Section */
 
 @-webkit-keyframes home-arrow-down {
   from {
@@ -607,6 +682,11 @@ html, body {
  */
 .site-section {
   padding: 100px 0;
+  background-color: #422680;
+}
+
+.section-team {
+  background-color: #280659;
 }
 
 .site-section h2 {
@@ -1003,7 +1083,7 @@ html, body {
 }
 
 /* Section: Services */
-.section-services.site-section {
+.section-services .site-section {
   padding: 0;
   background-color: #f6f6f6;
 }
@@ -1263,6 +1343,15 @@ html, body {
 /* Section: Reviews */
 .site-section.section-reviews {
   padding-bottom: 0;
+
+
+  width: 100%;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
 }
 
 .site-section.section-reviews .blue-bg {
@@ -1340,7 +1429,7 @@ html, body {
 
 .review .review-author h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 28px;
   color: #ffffff;
 }
 
