@@ -402,17 +402,20 @@
 
 
         <!-- About section -->
-        <section class="section-about">
-          <div id="about" class="container-custom">
+        <section class="site-section section-about" id="about">
+
 
           <div class="about-section">
             <h2>About Me</h2>
-            <img id="about-image" src="assets/img/about_image.jpg" alt="">
+            <p class="section-subtitle"><span>Web &amp game developper</span></p>
+            <img class="about-image" src="assets/img/about_image.jpg" alt="">
 
-            <div id="about-text">
+            <div class="section-about-text">
 
               <p>
-                I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.
+                <strong>
+                  I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.I am a web developper and I built video games for 4 years. I'm living near Paris in France.
+                </strong>
               </p>
 
             </div>
@@ -424,7 +427,6 @@
             </div>
 
           </div>
-        </div>
         </section>
         <!-- End About section -->
 
@@ -439,14 +441,31 @@
                     <ul class="portfolio-sorting list-inline">
                         <li><a href="#" class=" active" data-group="all">all</a></li>
                         <li><a href="#" class="" data-group="webdev">Web Development</a></li>
-                        <li><a href="#" class="" data-group="mobileapps">Programming</a></li>
-                        <li><a href="#" class="" data-group="webdesign">Game Development</a></li>
+                        <li><a href="#" class="" data-group="programming">Programming</a></li>
+                        <li><a href="#" class="" data-group="gamedev">Game Development</a></li>
+                        <li><a href="#" class="" data-group="other">Other</a></li>
                     </ul><!-- /.portfolio-sorting  -->
 
                     <div id="grid">
 
+                      <!-- Portfolio item -->
+                      <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["other"]'>
+                          <div class="portfolio-item">
+                              <div class="portfolio-item-thumb">
+                                  <img src="assets/img/about_image.jpg" alt="" class="img-res">
+                                  <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem1">
+                                      <i class="fa fa-plus"></i>
+                                  </a>
+                              </div><!-- /.portfolio-item-thumb  -->
+                              <div class="portfolio-info">
+                                  <h3><strong>Donkey Shot</strong></h3>
+                                  <p class="team-member-front-description"><span class="team-member-front-name"></span> - A game made in under 2.5 days.</p>
+                              </div><!-- /.portfolio-info  -->
+                          </div>
+                      </div><!-- /.col-md-3  -->
+
                         <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
+                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["gamedev"]'>
                             <div class="portfolio-item">
                                 <div class="portfolio-item-thumb">
                                     <img src="assets/img/portfolio-1.jpg" alt="" class="img-res">
@@ -478,8 +497,9 @@
                                 </div><!-- /.portfolio-info  -->
                             </div>
                         </div><!-- /.col-md-3  -->
+
                         <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["mobileapps"]'>
+                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["programming"]'>
                             <div class="portfolio-item">
                                 <div class="portfolio-item-thumb">
                                     <img src="assets/img/portfolio-4.jpg" alt="" class="img-res">
@@ -493,8 +513,9 @@
                                 </div><!-- /.portfolio-info  -->
                             </div>
                         </div><!-- /.col-md-3  -->
+
                         <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
+                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["gamedev"]'>
                             <div class="portfolio-item">
                                 <div class="portfolio-item-thumb">
                                     <img src="assets/img/portfolio-3.jpg" alt="" class="img-res">
@@ -509,6 +530,7 @@
                                 </div><!-- /.portfolio-info  -->
                             </div>
                         </div><!-- /.col-md-3  -->
+
                         <!-- Portfolio item -->
                         <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
                             <div class="portfolio-item">
@@ -524,8 +546,9 @@
                                 </div><!-- /.portfolio-info  -->
                             </div>
                         </div><!-- /.col-md-3  -->
+
                         <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["mobileapps"]'>
+                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["programming"]'>
                             <div class="portfolio-item">
                                 <div class="portfolio-item-thumb">
                                     <img src="assets/img/portfolio-6.jpg" alt="" class="img-res">
@@ -539,6 +562,7 @@
                                 </div><!-- /.portfolio-info  -->
                             </div>
                         </div><!-- /.col-md-3  -->
+
                         <!-- Portfolio item -->
                         <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
                             <div class="portfolio-item">
@@ -554,11 +578,12 @@
                                 </div><!-- /.portfolio-info  -->
                             </div>
                         </div><!-- /.col-md-3  -->
+
                         <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
+                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["gamedev"]'>
                             <div class="portfolio-item">
                                 <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-8.jpg" alt="" class="img-res">
+                                    <img src="assets/img/godot_icon.svg" alt="" class="img-res">
                                     <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem8">
                                         <i class="fa fa-plus"></i>
                                     </a>
