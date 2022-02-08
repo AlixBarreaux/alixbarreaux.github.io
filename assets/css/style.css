@@ -655,7 +655,7 @@ html, body {
   font-family: "Varela", sans-serif;
   margin: 0;
   font-size: 32px;
-  color: #196fc2;
+  color: #db0281;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1554,6 +1554,7 @@ html, body {
   z-index: 2;
   border: 1px solid #ccc;
   width: 100%;
+  background-color: #197064;
 }
 
 .team-member .team-member-front .team-member-thumb {
@@ -1569,7 +1570,7 @@ html, body {
   text-align: center;
   margin: 20px 0 0;
   font-weight: 600;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .team-member .team-member-back {
@@ -2530,7 +2531,6 @@ textarea.form-control {
 
 .row {
   margin-bottom: 50px;
-  background-color: black;
 }
 
 
