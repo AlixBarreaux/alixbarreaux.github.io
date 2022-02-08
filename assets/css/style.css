@@ -638,9 +638,97 @@ html, body {
  */
 .site-section {
   padding: 100px 0;
-  background-color: #422680;
+  background-color: #2f1466;
   position: relative;
 }
+
+/* Section: About */
+
+.section-about {
+  background-color: #280659;
+  text-align: center;
+}
+
+.section-about .section-subtitle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.section-about img {
+  width: auto;
+  height: 35vh;
+}
+
+.section-about-text {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.section-about p {
+  color: #ffffff;
+  margin: 5%;
+}
+
+
+/* BEGIN OLD CUSTOM ABOUT SECTION */
+/*
+.section-about {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.section-about img {
+  margin-bottom: 5%;
+  width: auto;
+  height: 33vh;
+}
+
+
+.section-about h2 {
+  padding-top: 5%;
+  margin-bottom: 5%;
+  font-size: 35px;
+  color: #28c177;
+}
+*/
+.section-about p {
+  /*font-size: 18px;
+  color: #ffffff;*/
+}
+
+/* END CUSTOM ABOUT SECTION */
+
+
+/* Section: Skills */
+.section-skills {
+  background-color: #2f1466;
+}
+
+.section-skills h2 {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.section-skills h2:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.section-skills p {
+  margin: 10px 0 0;
+}
+/* End Section: Skills */
 
 .section-projects {
   background-color: #280659;
@@ -648,7 +736,11 @@ html, body {
 }
 
 .section-coding-challenges {
-  background-color: #341671;
+  background-color: #2f1466;
+}
+
+.section-contact {
+  background-color: orange;
 }
 
 .site-section h2 {
@@ -841,63 +933,6 @@ html, body {
 }
 
 
-/* Section: About */
-
-.section-about {
-  background-color: #280659;
-  text-align: center;
-}
-
-.section-about .section-subtitle {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-
-.section-about img {
-  width: auto;
-  height: 35vh;
-}
-
-.section-about-text {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.section-about p {
-  color: #ffffff;
-  margin: 5%;
-}
-
-
-/* BEGIN OLD CUSTOM ABOUT SECTION */
-/*
-.section-about {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.section-about img {
-  margin-bottom: 5%;
-  width: auto;
-  height: 33vh;
-}
-
-
-.section-about h2 {
-  padding-top: 5%;
-  margin-bottom: 5%;
-  font-size: 35px;
-  color: #28c177;
-}
-*/
-.section-about p {
-  /*font-size: 18px;
-  color: #ffffff;*/
-}
-
-/* END CUSTOM ABOUT SECTION */
-
 /*
 .section-about .row {
   margin-top: 70px;
@@ -951,35 +986,6 @@ html, body {
   }
 }
 */
-
-/* Section: Skills */
-.section-skills {
-  background-color: #f6f6f6;
-}
-
-.section-skills h2 {
-  position: relative;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
-  font-size: 18px;
-  color: #000;
-  text-transform: uppercase;
-  text-align: left;
-}
-
-.section-skills h2:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 40px;
-  height: 1px;
-  background-color: #000;
-}
-
-.section-skills p {
-  margin: 10px 0 0;
-}
 
 .progress-group p {
   margin: 0;
@@ -2281,6 +2287,11 @@ html, body {
 }
 
 /* Section: Contact */
+
+.section-contact {
+  background-color: #280659;
+}
+
 .section-contact .container {
   max-width: 770px;
 }
