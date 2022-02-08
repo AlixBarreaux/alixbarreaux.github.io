@@ -1638,9 +1638,16 @@ html, body {
 
 @media only screen and (max-width: 479px) {
   /* Section: Team */
+  /* TEST (This block is the original one, .col-xs-6 alone was added)
   .section-team .col-xs-6 {
     width: 100%;
   }
+  */
+
+  .col-xs-6 {
+    width: 100%;
+  }
+/* END TEST */
   .section-team .col-xs-6:nth-child(n+2) {
     margin-top: 30px;
   }
@@ -2530,6 +2537,9 @@ textarea.form-control {
 .about-buttons {
   margin-bottom: 50px;
 }
+
+
+
 
 /*
 .arrow-down-button:hover {
