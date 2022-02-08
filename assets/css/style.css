@@ -639,6 +639,7 @@ html, body {
 .site-section {
   padding: 100px 0;
   background-color: #422680;
+  position: relative;
 }
 
 .section-projects {
@@ -1895,6 +1896,7 @@ html, body {
 /* Section: Portfolio */
 .portfolio {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio-sorting {
@@ -2513,3 +2515,23 @@ textarea.form-control {
     width: 36px;
   }
 }
+
+
+
+
+
+
+.row {
+  margin-bottom: 50px;
+  background-color: black;
+}
+
+
+.about-buttons {
+  margin-bottom: 50px;
+}
+
+/*
+.arrow-down-button:hover {
+  /*box-shadow: 0px 0px 20px 20px rgba(0, 255, 0, 1)*/
+/*}*/
