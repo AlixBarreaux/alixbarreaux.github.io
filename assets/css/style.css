@@ -312,7 +312,7 @@ html, body {
   position: relative;
   padding: 0 30px 0 15px;
   height: 60px;
-  background-color: #004b91;
+  background-color: #0e423b;
   z-index: 2;
 }
 
@@ -323,7 +323,7 @@ html, body {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #004b91;
+  background-color: #0e423b;
 }
 
 .site-logo a {
@@ -339,7 +339,7 @@ html, body {
 
 /* Navigation */
 .site-navigation {
-  background-color: #196fc2;
+  background-color: #1e7a6e;
 }
 
 .site-navigation.affix {
@@ -436,7 +436,7 @@ html, body {
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #196fc0;
+    background-color: #1e7a6e;
     z-index: 99;
     text-align: center;
     border-top: 0;
