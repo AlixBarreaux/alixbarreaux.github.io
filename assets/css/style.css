@@ -716,7 +716,6 @@ html, body {
 }
 
 .section-skills h2:before {
-  content: '';
   position: absolute;
   bottom: 0;
   display: block;
@@ -770,7 +769,6 @@ html, body {
 
 .section-subtitle span:before, .section-subtitle span:after {
   display: inline-block;
-  content: '';
   height: 1px;
   background-color: #666;
   width: 20px;
