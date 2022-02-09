@@ -1580,7 +1580,7 @@ html, body {
 .team-member .team-member-back {
   padding: 0 20px;
   display: table;
-  background: #efc026;
+  background: #197064;
   text-align: center;
   color: #ffffff;
   transform: rotateY(-180deg);
@@ -1625,6 +1625,14 @@ html, body {
   width: 30px;
   background-color: #ffffff;
   margin: 0 auto;
+}
+
+.team-member-info {
+  font-weight: bolder;
+}
+
+.team-member-back-position {
+  font-style: italic;
 }
 
 @media only screen and (max-width: 991px) {
