@@ -1911,11 +1911,17 @@ html, body {
   margin-bottom: 50px;
 }
 
+.portfolio a {
+  font-weight: bolder;
+  color: #f54952;
+  background-color: #280659;
+}
+
 .portfolio-sorting {
   margin: 0;
   border-top: 1px solid #f6f6f6;
   border-right: 1px solid #f6f6f6;
-  border-bottom: 2px solid #196fc2;
+  border-bottom: 2px solid #f6f6f6;
   height: 47px;
 }
 
@@ -1936,13 +1942,13 @@ html, body {
 }
 
 .portfolio-sorting li a:hover, .portfolio-sorting li a.active {
-  background-color: #196fc2;
+  background-color: #5936a5;
   color: #ffffff;
-  border-color: #196fc2;
+  border-color: #5936a5;
 }
 
 .portfolio-sorting li a:hover:after, .portfolio-sorting li a.active:after {
-  border-color: #196fc2;
+  border-color: #5936a5;
 }
 
 .portfolio-sorting li a:after, .portfolio-sorting li a.acitve:after {
@@ -1970,7 +1976,7 @@ html, body {
   height: 0;
   border-style: solid;
   border-width: 10px 10px 0 10px;
-  border-color: #196fc2 transparent transparent transparent;
+  border-color: white transparent transparent transparent;
   z-index: 99;
 }
 
@@ -2091,7 +2097,6 @@ html, body {
   color: #ffffff;*
 }
 
-
 .portfolio-info {
   background-color: green;
 }
@@ -2118,6 +2123,7 @@ html, body {
   .portfolio {
     margin-top: 30px;
   }
+
   .portfolio-sorting {
     height: 100%;
     border-right: 1px solid #f6f6f6;
@@ -2546,9 +2552,6 @@ textarea.form-control {
 .about-buttons {
   margin-bottom: 50px;
 }
-
-
-
 
 /*
 .arrow-down-button:hover {
