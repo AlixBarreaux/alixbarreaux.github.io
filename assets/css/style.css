@@ -87,6 +87,11 @@ html, body {
   text-transform: uppercase;
 }
 
+#btn-home-page {
+  background-color: #197064;
+  border-color: #197064;
+}
+
 .btn-inverted {
   color: #ffffff;
   background-color: transparent;
@@ -485,6 +490,7 @@ html, body {
   display: table-cell;
   vertical-align: middle;
   position: relative;
+  text-align: center;
 }
 
 .hero-content h1 {
