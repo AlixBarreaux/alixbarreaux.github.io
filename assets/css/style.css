@@ -2398,6 +2398,11 @@ textarea.form-control {
 
 /* FOOTER
 ================================================== */
+
+.site-footer {
+  background-color: #0b1428;
+}
+
 .site-footer .container-fluid {
   position: relative;
   padding: 70px 15px;
