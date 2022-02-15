@@ -740,6 +740,10 @@ html, body {
   text-align: center;
 }
 
+#projects-subtitle-call-to-action {
+  margin-top: 3%;
+}
+
 .section-coding-challenges {
   background-color: #0c2e5e;
 }
