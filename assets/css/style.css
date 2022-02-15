@@ -1564,7 +1564,7 @@ html, body {
   z-index: 2;
   border: 1px solid #ccc;
   width: 100%;
-  background-color: #197064;
+  background-color: #0a1b33;
 }
 
 .team-member .team-member-front .team-member-thumb {
@@ -1586,7 +1586,7 @@ html, body {
 .team-member .team-member-back {
   padding: 0 20px;
   display: table;
-  background: #197064;
+  background: #0a1b33;
   text-align: center;
   color: #ffffff;
   transform: rotateY(-180deg);
