@@ -77,13 +77,13 @@ html, body {
  */
 .btn {
   font-family: "Varela", sans-serif;
-  background-color: #5121ba;
+  background-color: #2e60a5;
   padding: 0 15px;
   color: #ffffff;
   height: 44px;
   line-height: 42px;
   border-radius: 0;
-  border: 1px solid #5121ba;
+  border: 1px solid #2e60a5;
   text-transform: uppercase;
 }
 
@@ -642,14 +642,14 @@ html, body {
  */
 .site-section {
   padding: 100px 0;
-  background-color: #2f1466;
+  background-color: #0c2e5e;
   position: relative;
 }
 
 /* Section: About */
 
 .section-about {
-  background-color: #280659;
+  background-color: #0a2851;
   text-align: center;
 }
 
@@ -706,7 +706,7 @@ html, body {
 
 /* Section: Skills */
 .section-skills {
-  background-color: #2f1466;
+  background-color: #0c2e5e;
 }
 
 .section-skills h2 {
@@ -734,12 +734,12 @@ html, body {
 /* End Section: Skills */
 
 .section-projects {
-  background-color: #280659;
+  background-color: #0a2851;
   text-align: center;
 }
 
 .section-coding-challenges {
-  background-color: #2f1466;
+  background-color: #0c2e5e;
 }
 
 .section-contact {
@@ -750,7 +750,7 @@ html, body {
   font-family: "Varela", sans-serif;
   margin: 0;
   font-size: 32px;
-  color: #db0281;
+  color: #55cdfc;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1926,7 +1926,7 @@ html, body {
 .portfolio a {
   font-weight: bolder;
   color: #f54952;
-  background-color: #280659;
+  background-color: #0a2851;
 }
 
 .portfolio-sorting {
@@ -1954,13 +1954,13 @@ html, body {
 }
 
 .portfolio-sorting li a:hover, .portfolio-sorting li a.active {
-  background-color: #5936a5;
+  background-color: #2e60a5;
   color: #ffffff;
-  border-color: #5936a5;
+  border-color: #2e60a5;
 }
 
 .portfolio-sorting li a:hover:after, .portfolio-sorting li a.active:after {
-  border-color: #5936a5;
+  border-color: #2e60a5;
 }
 
 .portfolio-sorting li a:after, .portfolio-sorting li a.acitve:after {
@@ -2019,7 +2019,7 @@ html, body {
 
 .portfolio-item .portfolio-item-thumb:after {
   content: '';
-  background-color: rgba(66, 38, 128, 0.7);
+  background-color: rgba(61, 131, 229, 0.7);
   position: absolute;
   left: 0;
   right: 0;
@@ -2306,7 +2306,7 @@ html, body {
 /* Section: Contact */
 
 .section-contact {
-  background-color: #280659;
+  background-color: #0a2851;
 }
 
 .section-contact .container {
