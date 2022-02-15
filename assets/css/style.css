@@ -48,6 +48,7 @@ a, button {
   transition: all 0.25s ease-in-out;
   cursor: pointer;
   outline: 0 none;
+  color: #3d8bce;
 }
 
 a:hover, a:focus {
@@ -669,6 +670,7 @@ html, body {
 .section-about-text {
   margin-left: 5%;
   margin-right: 5%;
+  color: #ffffff;
 }
 
 .section-about p {
@@ -738,6 +740,11 @@ html, body {
 .section-projects {
   background-color: #0a2851;
   text-align: center;
+}
+
+#section-projects-generic-text {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #projects-subtitle-call-to-action {
