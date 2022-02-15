@@ -88,8 +88,10 @@ html, body {
 }
 
 #btn-home-page {
+  /*
   background-color: #197064;
   border-color: #197064;
+  */
 }
 
 .btn-inverted {
@@ -440,7 +442,7 @@ html, body {
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #1e7a6e;
+    background-color: #0c274c;
     z-index: 99;
     text-align: center;
     border-top: 0;
@@ -2110,7 +2112,7 @@ html, body {
 }
 
 .portfolio-info {
-  background-color: #1e7a6e;
+  background-color: #0c274c;
   color: #ffffff;
 }
 
