@@ -2057,7 +2057,7 @@ html, body {
 
 .portfolio-item .portfolio-item-thumb:after {
   content: '';
-  background-color: rgba(61, 131, 229, 0.7);
+  background-color: rgba(255, 255, 255, 0.125);
   position: absolute;
   left: 0;
   right: 0;
