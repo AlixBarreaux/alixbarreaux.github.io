@@ -317,6 +317,7 @@ html, body {
 ================================================== */
 .site-header {
   height: 60px;
+  background-color: #0a2851;
 }
 
 .site-logo {
