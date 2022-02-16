@@ -2041,6 +2041,11 @@ html, body {
   height: 250px;
 }
 
+.portfolio-item .portfolio-item-thumb img {
+  object-fit: contain;
+  padding: 15px;
+}
+
 .portfolio-item .portfolio-item-thumb:after {
   content: '';
   background-color: rgba(61, 131, 229, 0.7);
