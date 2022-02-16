@@ -2229,6 +2229,7 @@ html, body {
 }
 
 /* Sections background: Quote */
+/*
 .section-quote {
   background: url(../img/quote.jpg) center no-repeat fixed;
 }
@@ -2241,10 +2242,11 @@ html, body {
 .section-quote p span {
   color: #196fc2;
 }
+*/
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(../img/ready_to_work_together.jpg) center no-repeat fixed;
 }
 
 .section-me h2 {
@@ -2254,6 +2256,7 @@ html, body {
 }
 
 /* Sections background: Twitter */
+/*
 .section-twitter {
   background: url(../img/portfolio-8.jpg) center no-repeat fixed;
 }
@@ -2288,11 +2291,14 @@ html, body {
   height: 1px;
   background-color: #ffffff;
 }
+*/
 
+/*
 @media only screen and (max-width: 767px) {
   /*
      * Sections: Background;
      */
+  /*
   .section-background {
     padding: 100px 0;
   }
@@ -2309,8 +2315,10 @@ html, body {
     top: -20px;
   }
 }
+*/
 
 /* Section: Clients */
+/*
 .section-clients {
   padding: 80px 0;
 }
@@ -2324,6 +2332,7 @@ html, body {
   -webkit-filter: grayscale(100%);
 }
 
+
 .client:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
@@ -2333,13 +2342,16 @@ html, body {
   display: inline-block;
   height: 80px;
 }
-
+*/
+/*
 @media only screen and (max-width: 767px) {
   /* Section: Clients */
+  /*
   .section-clients {
     padding: 40px 0;
   }
 }
+*/
 
 /* Section: Contact */
 
