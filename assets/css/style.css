@@ -1595,6 +1595,8 @@ html, body {
 
 .team-member .team-member-front .team-member-thumb img {
   margin: 0 auto;
+  padding: 15px;
+  object-fit: contain;
 }
 
 .team-member .team-member-front .team-member-front-description {
