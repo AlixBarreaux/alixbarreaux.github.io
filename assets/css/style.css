@@ -75,7 +75,7 @@ html, body {
  * Background colors
  */
 .blue-bg {
-  background-color: #196fc2;
+  background-color: #153d75;
 }
 
 /*
@@ -122,6 +122,7 @@ html, body {
 /*
  * Rectangle
  */
+
 .rectangle,
 .big-rectangle {
   display: inline-block;
