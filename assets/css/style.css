@@ -2032,7 +2032,8 @@ html, body {
 }
 
 .portfolio-item {
-  overflow: hidden;
+  border: 5px solid #0c2e5e;
+  background-color: rgba(255, 255, 255, 0.125);
 }
 
 .portfolio-item .portfolio-item-thumb {
