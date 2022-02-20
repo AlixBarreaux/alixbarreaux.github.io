@@ -661,6 +661,7 @@ html, body {
 .section-about {
   background-color: #0a2851;
   text-align: center;
+  width: 100%;
 }
 
 .section-about .section-subtitle {
@@ -668,10 +669,17 @@ html, body {
   margin-bottom: 50px;
 }
 
-
 .section-about img {
-  width: auto;
-  height: 35vh;
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .section-about img {
+    width: 70%;
+  }
 }
 
 .section-about-text {
