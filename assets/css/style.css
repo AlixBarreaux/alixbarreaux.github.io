@@ -675,10 +675,30 @@ html, body {
   width: 15%;
 }
 
-
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1280px) {
+  /* Sections */
   .section-about img {
-    width: 70%;
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  /* Sections */
+  .section-about img {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  /* Sections */
+  .section-about img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
   }
 }
 
