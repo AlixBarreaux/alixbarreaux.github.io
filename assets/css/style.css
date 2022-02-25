@@ -56,6 +56,10 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+h2 {
+  color: #f54952;
+}
+
 /* Alt text color */
 img {
   color: #ffffff;
@@ -2648,6 +2652,18 @@ textarea.form-control {
 .about-buttons {
   margin-bottom: 50px;
 }
+
+/* PAGE 404 */
+.page-404-wrapper-buttons .btn {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.error-message-wrapper h2 {
+  color: #ffffff;
+}
+/* END PAGE 404 */
+
 
 /*
 .arrow-down-button:hover {
