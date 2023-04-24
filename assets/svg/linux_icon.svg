@@ -7,7 +7,7 @@
    preserveAspectRatio="xMidYMid"
    id="svg6"
    sodipodi:docname="linux_and_manjaro_icon.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -408,7 +408,7 @@
      inkscape:snap-global="false"
      inkscape:zoom="1.658"
      inkscape:cx="180.33776"
-     inkscape:cy="111.58022"
+     inkscape:cy="111.88179"
      inkscape:window-width="1920"
      inkscape:window-height="1005"
      inkscape:window-x="0"
@@ -563,9 +563,4 @@
        id="path1068"
        style="fill:url(#linearGradient-21);stroke-width:0.865964" />
   </g>
-  <path
-     d="m 148.34021,123.10906 v 45.06655 h -13.18984 v -45.06655 z m -15.93883,15.93804 v 29.12852 H 119.21152 V 139.0471 Z m 1.7e-4,-15.93805 v 13.18984 h -15.9828 v 31.87672 h -13.14511 v -45.06656 z"
-     fill="#35bf5c"
-     id="path1201"
-     style="stroke-width:0.176041" />
 </svg>
