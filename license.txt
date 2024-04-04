@@ -1,4 +1,12 @@
-Copyright (c) 2022 AlixBarreaux | https://github.com/AlixBarreaux
+Copyright (c) 2022-present Alix Barreaux | https://github.com/AlixBarreaux
+
+
+Any content on this website related to Alix Barreaux is his copyrighted property except the code of the template in the credits section of this document.
+
+
+CREDITS:
 
 Base template (modified for my needs) :
 https://www.free-css.com/free-css-templates/page275/triple-p
+
+See also: https://www.free-css.com/help-and-support/copyright-notice#terms-of-use
