@@ -55,11 +55,11 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        .skills-card {
+        .projects-card {
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             transform-style: preserve-3d;
         }
-        .skills-card:hover {
+        .projects-card:hover {
             transform: translateY(-10px) scale(1.02);
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
         }
@@ -92,7 +92,7 @@
             .animate-bounce {
                 animation: none !important;
             }
-            .skills-card:hover {
+            .projects-card:hover {
                 transform: none !important;
             }
         }
@@ -163,13 +163,13 @@
                        class="block px-3 py-3 text-gray-300 hover:text-emerald-400 transition-all duration-300 rounded-lg hover:bg-gray-800">
                         <i class="fas fa-user mr-3" aria-hidden="true"></i>About
                     </a>
-                    <a href="#skills" @click="$store.nav.mobileMenuOpen=false"
-                       class="block px-3 py-3 text-gray-300 hover:text-blue-400 transition-all duration-300 rounded-lg hover:bg-gray-800">
-                        <i class="fas fa-newspaper mr-3" aria-hidden="true"></i>Skills
-                    </a>
                     <a href="#projects" @click="$store.nav.mobileMenuOpen=false"
+                       class="block px-3 py-3 text-gray-300 hover:text-blue-400 transition-all duration-300 rounded-lg hover:bg-gray-800">
+                        <i class="fas fa-newspaper mr-3" aria-hidden="true"></i>Projects
+                    </a>
+                    <a href="#skills" @click="$store.nav.mobileMenuOpen=false"
                        class="block px-3 py-3 text-gray-300 hover:text-amber-400 transition-all duration-300 rounded-lg hover:bg-gray-800">
-                        <i class="fas fa-user mr-3" aria-hidden="true"></i>Projects
+                        <i class="fas fa-user mr-3" aria-hidden="true"></i>Skills
                     </a>
                     <a href="#contact" @click="$store.nav.mobileMenuOpen=false"
                        class="block px-3 py-3 text-gray-300 hover:text-purple-400 transition-all duration-300 rounded-lg hover:bg-gray-800">
@@ -203,7 +203,7 @@
                         • Designed API validation layer with TypeScript + schema validation
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style="animation-delay: 0.4s">
-                        <a href="#skills" class="group bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/25 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/70">
+                        <a href="#projects" class="group bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/25 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/70">
                             <i class="fas fa-briefcase mr-2" aria-hidden="true"></i>View Portfolio
                         </a>
                         <a href="#contact" class="group border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400/70">
@@ -215,18 +215,37 @@
             
             <!-- Scroll indicator -->
             <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-                <a href="#skills" class="text-gray-400 hover:text-emerald-400 transition-colors" aria-label="Scroll to skills">
+                <a href="#projects" class="text-gray-400 hover:text-emerald-400 transition-colors" aria-label="Scroll to projects">
                     <i class="fas fa-chevron-down text-2xl" aria-hidden="true"></i>
                 </a>
             </div>
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="py-20 bg-gradient-to-b from-dark to-gray-900/80">
+        <section id="skills" class="py-20 bg-gradient-to-b from-gray-900/80 to-dark">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div class="animate-fade-in">
+                        <h2 class="text-4xl font-bold mb-6">
+                            <span class="gradient-text">Skills the Writer</span>
+                        </h2>
+                        <p class="text-gray-300 mb-6 leading-relaxed">
+                            With over a decade of experience in professional writing, I specialize in creating engaging content that resonates with diverse audiences. My work spans automation, CI/CD & DevOps, API Testing, and cultural topics, bringing unique perspectives to every piece.
+                        </p>
+                        <p class="text-gray-300 mb-8 leading-relaxed">
+                            I believe in the power of words to inform, inspire, and create meaningful connections. Each projects is crafted with careful attention to detail, thorough research, and compelling narrative flow that keeps readers engaged from start to finish.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-gradient-to-b from-dark to-gray-900/80">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12">
                     <h2 class="text-4xl font-bold mb-4 animate-fade-in">
-                        <span class="gradient-text">Skills</span>
+                        <span class="gradient-text">Projects</span>
                     </h2>
                     <p class="text-gray-400 max-w-2xl mx-auto">Featured works across various publications and topics.</p>
                 </div>
@@ -246,14 +265,14 @@
                                 :class="filter==='Test Architecture & Strategy' ? 'bg-blue-500/10 text-blue-300 border-blue-400/50' : ''">Test Architecture & Strategy</button>
                         <button @click="filter='Tools & Frameworks'" class="px-4 py-2 rounded-full border border-gray-700/60 text-gray-300 hover:text-white hover:border-emerald-400/70 transition-all"
                                 :class="filter==='Tools & Frameworks' ? 'bg-emerald-500/10 text-emerald-300 border-emerald-400/50' : ''">Tools & Frameworks</button>
-                        <button @click="filter='Miscellaneous Projects'" class="px-4 py-2 rounded-full border border-gray-700/60 text-gray-300 hover:text-white hover:border-purple-400/70 transition-all"
-                                :class="filter==='Miscellaneous Projects' ? 'bg-purple-500/10 text-purple-300 border-purple-400/50' : ''">Miscellaneous Projects</button>
+                        <button @click="filter='Miscellaneous Skills'" class="px-4 py-2 rounded-full border border-gray-700/60 text-gray-300 hover:text-white hover:border-purple-400/70 transition-all"
+                                :class="filter==='Miscellaneous Skills' ? 'bg-purple-500/10 text-purple-300 border-purple-400/50' : ''">Miscellaneous Skills</button>
                     </div>
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-                        <!-- Skills 1 -->
-                        <skills x-show="filter==='All' || filter==='Automation'" x-transition
-                                 class="skills-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-emerald-400/50">
+                        <!-- Projects 1 -->
+                        <projects x-show="filter==='All' || filter==='Automation'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-emerald-400/50">
                             <div class="relative">
                                 <img src="https://images.unsplash.com/photo-1731702981357-dbbe3ab354a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdyaXRpbmclMjBhaSUyMGFic3RyYWN0JTIwZGFya3xlbnwwfDB8fHwxNzU4OTEzNzIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=JaEePXsjUJM"
                                      alt="Abstract AI concept art" class="w-full h-44 sm:h-48 object-cover opacity-90">
@@ -269,11 +288,11 @@
                                 <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Invoice Flow - Automation First Full-Stack Application</h3>
                                 <p class="text-gray-400 mb-4 leading-relaxed">Exploring how artificial intelligence is transforming the landscape of creative content creation and storytelling.</p>
                             </div>
-                        </skills>
+                        </projects>
 
-                        <!-- Skills 2 -->
-                        <skills x-show="filter==='All' || filter==='CI/CD & DevOps'" x-transition
-                                 class="skills-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
+                        <!-- Projects 2 -->
+                        <projects x-show="filter==='All' || filter==='CI/CD & DevOps'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
                             <div class="relative">
                                 <img src="https://images.unsplash.com/photo-1754761986430-5d0d44d09d00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwbWluaW1hbGlzbSUyMHdvcmtzcGFjZXxlbnwwfDB8fHwxNzU4OTEzNzIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=T_Wrm42C85o"
                                      alt="Minimalist digital workspace" class="w-full h-44 sm:h-48 object-cover opacity-90">
@@ -295,11 +314,11 @@
                                     </a>
                                 </div>
                             </div>
-                        </skills>
+                        </projects>
 
-                        <!-- Skills 3 -->
-                        <skills x-show="filter==='All' || filter==='API Testing'" x-transition
-                                 class="skills-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-amber-400/50">
+                        <!-- Projects 3 -->
+                        <projects x-show="filter==='All' || filter==='API Testing'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-amber-400/50">
                             <div class="relative">
                                 <img src="https://images.unsplash.com/photo-1758524054106-06b11aec385c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJsZSUyMGJ1c2luZXNzJTIwZ3JlZW4lMjBpbmR1c3RyeXxlbnwwfDB8fHwxNzU4OTEzNzIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=vZQQSQWR6tU"
                                      alt="Green sustainable API Testing concept" class="w-full h-44 sm:h-48 object-cover opacity-90">
@@ -321,11 +340,11 @@
                                     </a>
                                 </div>
                             </div>
-                        </skills>
+                        </projects>
 
-                        <!-- Skills 4 -->
-                        <skills x-show="filter==='All' || filter==='Test Architecture & Strategy'" x-transition
-                                 class="skills-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-blue-400/50">
+                        <!-- Projects 4 -->
+                        <projects x-show="filter==='All' || filter==='Test Architecture & Strategy'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-blue-400/50">
                             <div class="relative">
                                 <img src="https://images.unsplash.com/photo-1682278763548-f349e3c73793?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxtaW5kZnVsbmVzcyUyMG1lZGl0YXRpb24lMjBjYWxtfGVufDB8MHx8fDE3NTg5MTM3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=iGUs-mwlpTo"
                                      alt="Mindfulness meditation calm scene" class="w-full h-44 sm:h-48 object-cover opacity-90">
@@ -347,11 +366,11 @@
                                     </a>
                                 </div>
                             </div>
-                        </skills>
+                        </projects>
 
-                        <!-- Skills 5 -->
-                        <skills x-show="filter==='All' || filter==='Tools & Frameworks'" x-transition
-                                 class="skills-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-emerald-400/50">
+                        <!-- Projects 5 -->
+                        <projects x-show="filter==='All' || filter==='Tools & Frameworks'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-emerald-400/50">
                             <div class="relative">
                                 <img src="https://images.unsplash.com/photo-1561553162-e34e4ed32841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxTb3V0aGVhc3QlMjBBc2lhJTIwbGFuZHNjYXBlJTIwaGlkZGVuJTIwZ2Vtc3xlbnwwfDB8fHwxNzU4OTEzNzI1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=Q6I7aCWnO8g"
                                      alt="Hidden gems of Southeast Asia landscape" class="w-full h-44 sm:h-48 object-cover opacity-90">
@@ -373,11 +392,11 @@
                                     </a>
                                 </div>
                             </div>
-                        </skills>
+                        </projects>
 
-                        <!-- Skills 6 -->
-                        <skills x-show="filter==='All' || filter==='Miscellaneous Projects'" x-transition
-                                 class="skills-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
+                        <!-- Projects 6 -->
+                        <projects x-show="filter==='All' || filter==='Miscellaneous Skills'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
                             <div class="relative">
                                 <img src="https://images.unsplash.com/photo-1581508512961-0e3b9524db40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxpbmRlcGVuZGVudCUyMHB1Ymxpc2hpbmclMjBib29rcyUyMHByaW50aW5nJTIwcHJlc3N8ZW58MHwwfHx8MTc1ODkxMzcyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=EgB66PkGZbQ"
                                      alt="Independent publishing - printing press and books" class="w-full h-44 sm:h-48 object-cover opacity-90">
@@ -386,7 +405,7 @@
                             <div class="p-6">
                                 <div class="flex items-center justify-between mb-4">
                                     <span class="inline-flex items-center px-3 py-1 bg-purple-900/30 text-purple-400 rounded-full text-sm">
-                                        <i class="fas fa-book mr-1" aria-hidden="true"></i>Miscellaneous Projects
+                                        <i class="fas fa-book mr-1" aria-hidden="true"></i>Miscellaneous Skills
                                     </span>
                                     <span class="text-xs text-gray-500">Dec 5, 2023</span>
                                 </div>
@@ -399,34 +418,15 @@
                                     </a>
                                 </div>
                             </div>
-                        </skills>
+                        </projects>
                     </div>
 
                     <div class="text-center mt-12">
-                        <a href="#skills" @click.prevent="filter='All'"
+                        <a href="#projects" @click.prevent="filter='All'"
                            class="inline-flex items-center text-gray-400 hover:text-emerald-400 transition-all duration-300 group">
-                            View All Skills 
+                            View All Projects 
                             <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform" aria-hidden="true"></i>
                         </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="py-20 bg-gradient-to-b from-gray-900/80 to-dark">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid lg:grid-cols-2 gap-16 items-center">
-                    <div class="animate-fade-in">
-                        <h2 class="text-4xl font-bold mb-6">
-                            <span class="gradient-text">Projects the Writer</span>
-                        </h2>
-                        <p class="text-gray-300 mb-6 leading-relaxed">
-                            With over a decade of experience in professional writing, I specialize in creating engaging content that resonates with diverse audiences. My work spans automation, CI/CD & DevOps, API Testing, and cultural topics, bringing unique perspectives to every piece.
-                        </p>
-                        <p class="text-gray-300 mb-8 leading-relaxed">
-                            I believe in the power of words to inform, inspire, and create meaningful connections. Each skills is crafted with careful attention to detail, thorough research, and compelling narrative flow that keeps readers engaged from start to finish.
-                        </p>
                     </div>
                 </div>
             </div>
