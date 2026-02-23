@@ -295,12 +295,12 @@
                     </div>
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-                        <!-- Projects 1 -->
+                        <!-- Project 1 -->
                         <projects x-show="filter==='All' || filter==='Automation'" x-transition
                                  class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-emerald-400/50">
                             <div class="relative">
                                 <img src="https://images.unsplash.com/photo-1731702981357-dbbe3ab354a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdyaXRpbmclMjBhaSUyMGFic3RyYWN0JTIwZGFya3xlbnwwfDB8fHwxNzU4OTEzNzIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=JaEePXsjUJM"
-                                     alt="Abstract AI concept art" class="w-full h-44 sm:h-48 object-cover opacity-90">
+                                     alt="Invoice Flow Screenshot" class="w-full h-44 sm:h-48 object-cover opacity-90">
                                 <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
                             </div>
                             <div class="p-6">
@@ -308,14 +308,29 @@
                                     <span class="inline-flex items-center px-3 py-1 bg-emerald-900/30 text-emerald-400 rounded-full text-sm">
                                         <i class="fas fa-microchip mr-1" aria-hidden="true"></i>Automation
                                     </span>
-                                    <span class="text-xs text-gray-500">May 15, 2024</span>
                                 </div>
                                 <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Invoice Flow - Automation First Full-Stack Application</h3>
-                                <p class="text-gray-400 mb-4 leading-relaxed">Exploring how artificial intelligence is transforming the landscape of creative content creation and storytelling.</p>
+                                <p class="text-gray-400 mb-4 leading-relaxed">Full-stack application focused on test automation, reliability, and CI-driven deployments.</p>
+                                <ul class="text-gray-300 text-sm space-y-2 mb-6">
+                                    <li>• Built E2E test suite with Playwright</li>
+                                    <li>• CI pipeline using GitHub Actions</li>
+                                    <li>• TypeScript backend & frontend</li>
+                                    <li>• Automated regression testing before deployment</li>
+                                </ul>
+                                <div class="flex justify-center gap-4">
+                                    <a href="https://github.com/yourusername/invoiceflow"
+                                        class="px-4 py-2 bg-emerald-500 text-black rounded-lg font-medium hover:bg-emerald-400 transition">
+                                        View Code
+                                    </a>
+
+                                    <a href="#"
+                                        class="px-4 py-2 border border-gray-600 text-gray-300 rounded-lg hover:border-emerald-400 hover:text-white transition">
+                                        Live Demo
+                                    </a>
+                                </div>
                             </div>
                         </projects>
-
-                        <!-- Projects 2 -->
+                        <!-- Project 2 -->
                         <projects x-show="filter==='All' || filter==='CI/CD & DevOps'" x-transition
                                  class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
                             <div class="relative">
@@ -340,8 +355,7 @@
                                 </div>
                             </div>
                         </projects>
-
-                        <!-- Projects 3 -->
+                        <!-- Project 3 -->
                         <projects x-show="filter==='All' || filter==='API Testing'" x-transition
                                  class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-amber-400/50">
                             <div class="relative">
@@ -366,8 +380,7 @@
                                 </div>
                             </div>
                         </projects>
-
-                        <!-- Projects 4 -->
+                        <!-- Project 4 -->
                         <projects x-show="filter==='All' || filter==='Test Architecture & Strategy'" x-transition
                                  class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-blue-400/50">
                             <div class="relative">
@@ -392,8 +405,7 @@
                                 </div>
                             </div>
                         </projects>
-
-                        <!-- Projects 5 -->
+                        <!-- Project 5 -->
                         <projects x-show="filter==='All' || filter==='Tools & Frameworks'" x-transition
                                  class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-emerald-400/50">
                             <div class="relative">
@@ -418,8 +430,7 @@
                                 </div>
                             </div>
                         </projects>
-
-                        <!-- Projects 6 -->
+                        <!-- Project 6 -->
                         <projects x-show="filter==='All' || filter==='Miscellaneous Skills'" x-transition
                                  class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
                             <div class="relative">
@@ -445,7 +456,6 @@
                             </div>
                         </projects>
                     </div>
-
                     <div class="text-center mt-12">
                         <a href="#projects" @click.prevent="filter='All'"
                            class="inline-flex items-center text-gray-400 hover:text-emerald-400 transition-all duration-300 group">
