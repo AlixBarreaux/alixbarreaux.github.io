@@ -193,14 +193,14 @@
                         <span class="gradient-text">QA Automation Engineer (SDET)</span>
                     </h1>
                     <p class="text-gray-400 leading-relaxed mb-6">
-                        I build scalable test automation systems for web applications.
-                        I help startups reduce regressions, stabilize CI pipelines, and ship faster.
-                        Specialized in Cypress, API testing, and automation architecture.
-                        Available for remote short-term contracts.
+                        I design and implement structured automation systems for modern web applications.
 
-                        • Built Cypress test suite from 0 to CI-integrated pipeline
-                        • Designed structured automated regression coverage from 0% to ~80% of priority workflows.
-                        • Designed API validation layer with TypeScript + schema validation
+                        At Wirk, I built and maintained a Cypress end-to-end suite covering critical user flows, structured regression coverage from 0% to ~80% of priority workflows, and contributed to technical decisions around automation tooling and testability.
+
+                        My background in independent software development strengthened my system architecture thinking, edge-case analysis, and debugging depth - Directly applicable to robust test design.
+
+                        Currently available for remote QA / SDET short-term contracts.
+                        Open to starting with manual QA missions to support delivery while building automation.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style="animation-delay: 0.4s">
                         <a href="#projects" class="group bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/25 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/70">
@@ -228,7 +228,7 @@
                     <h2 class="text-4xl font-bold mb-4 animate-fade-in">
                         <span class="gradient-text">Skills</span>
                     </h2>
-                    <p class="text-gray-400 max-w-2xl mx-auto">Featured works across various publications and topics.</p>
+                    <p class="text-gray-400 max-w-2xl mx-auto">Core technologies used in automation architecture, CI pipelines and test system design.</p>
                 </div>
                 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-12 text-center">
                     <!-- Skill 1 -->
@@ -272,7 +272,7 @@
                     <h2 class="text-4xl font-bold mb-4 animate-fade-in">
                         <span class="gradient-text">Projects</span>
                     </h2>
-                    <p class="text-gray-400 max-w-2xl mx-auto">Featured works across various publications and topics.</p>
+                    <p class="text-gray-400 max-w-2xl mx-auto">Selected automation and system architecture projects demonstrating production-grade QA strategy.</p>
                 </div>
 
                 <!-- Filters -->
@@ -310,15 +310,17 @@
                                     </span>
                                 </div>
                                 <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Invoice Flow - Automation First Full-Stack Application</h3>
-                                <p class="text-gray-400 mb-4 leading-relaxed">Full-stack application focused on test automation, reliability, and CI-driven deployments.</p>
+                                <p class="text-gray-400 mb-4 leading-relaxed">Full-stack application built to demonstrate production-grade automation architecture and CI reliability.</p>
                                 <ul class="text-gray-300 text-sm space-y-2 mb-6">
-                                    <li>• Built E2E test suite with Playwright</li>
-                                    <li>• CI pipeline using GitHub Actions</li>
-                                    <li>• TypeScript backend & frontend</li>
-                                    <li>• Automated regression testing before deployment</li>
+                                    <li>• Backend: Node.js, Express, TypeScript, Postgres</li>
+                                    <li>• Schema validation with Zod</li>
+                                    <li>• End-to-end testing with Cypress</li>
+                                    <li>• CI pipeline with GitHub Actions</li>
+                                    <li>• Dockerized development environment</li>
+                                    <li>• Bulk operations, structured error handling & logging</li>
                                 </ul>
                                 <div class="flex justify-center gap-4">
-                                    <a href="https://github.com/yourusername/invoiceflow"
+                                    <a href="https://github.com/AlixBarreaux/invoice-flow"
                                         class="px-4 py-2 bg-emerald-500 text-black rounded-lg font-medium hover:bg-emerald-400 transition">
                                         View Code
                                     </a>
@@ -331,126 +333,107 @@
                             </div>
                         </div>
                         <!-- Project 2 -->
-                        <div x-show="filter==='All' || filter==='CI/CD & DevOps'" x-transition
+                        <div x-show="filter==='All' || filter==='Automation'" x-transition
                                  class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
                             <div class="relative">
-                                <img src="https://images.unsplash.com/photo-1754761986430-5d0d44d09d00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwbWluaW1hbGlzbSUyMHdvcmtzcGFjZXxlbnwwfDB8fHwxNzU4OTEzNzIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=T_Wrm42C85o"
-                                     alt="Minimalist digital workspace" class="w-full h-44 sm:h-48 object-cover opacity-90">
-                                <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
-                            </div>
-                            <div class="p-6">
-                                <div class="flex items-center justify-between mb-4">
-                                    <span class="inline-flex items-center px-3 py-1 bg-purple-900/30 text-purple-400 rounded-full text-sm">
-                                        <i class="fas fa-heart mr-1" aria-hidden="true"></i>CI/CD & DevOps
-                                    </span>
-                                    <span class="text-xs text-gray-500">Apr 22, 2024</span>
-                                </div>
-                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Minimalism in the Digital Age</h3>
-                                <p class="text-gray-400 mb-4 leading-relaxed">Finding balance and simplicity in an increasingly connected and complex digital world.</p>
-                                <div class="flex justify-between items-center pt-4 border-t border-gray-700/50">
-                                    <span class="text-amber-400 text-sm font-medium">Modern Living Journal</span>
-                                    <a href="#" class="text-blue-400 hover:text-blue-300 transition-all duration-300 transform hover:translate-x-1">
-                                        Read More <i class="fas fa-arrow-right ml-1" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 3 -->
-                        <div x-show="filter==='All' || filter==='API Testing'" x-transition
-                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-amber-400/50">
-                            <div class="relative">
-                                <img src="https://images.unsplash.com/photo-1758524054106-06b11aec385c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJsZSUyMGJ1c2luZXNzJTIwZ3JlZW4lMjBpbmR1c3RyeXxlbnwwfDB8fHwxNzU4OTEzNzIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=vZQQSQWR6tU"
-                                     alt="Green sustainable API Testing concept" class="w-full h-44 sm:h-48 object-cover opacity-90">
-                                <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
-                            </div>
-                            <div class="p-6">
-                                <div class="flex items-center justify-between mb-4">
-                                    <span class="inline-flex items-center px-3 py-1 bg-amber-900/30 text-amber-400 rounded-full text-sm">
-                                        <i class="fas fa-chart-line mr-1" aria-hidden="true"></i>API Testing
-                                    </span>
-                                    <span class="text-xs text-gray-500">Mar 30, 2024</span>
-                                </div>
-                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Sustainable API Testing Practices</h3>
-                                <p class="text-gray-400 mb-4 leading-relaxed">How forward-thinking companies are integrating sustainability into their core API Testing operations.</p>
-                                <div class="flex justify-between items-center pt-4 border-t border-gray-700/50">
-                                    <span class="text-amber-400 text-sm font-medium">API Testing Weekly</span>
-                                    <a href="#" class="text-blue-400 hover:text-blue-300 transition-all duration-300 transform hover:translate-x-1">
-                                        Read More <i class="fas fa-arrow-right ml-1" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 4 -->
-                        <div x-show="filter==='All' || filter==='Test Architecture & Strategy'" x-transition
-                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-blue-400/50">
-                            <div class="relative">
-                                <img src="https://images.unsplash.com/photo-1682278763548-f349e3c73793?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxtaW5kZnVsbmVzcyUyMG1lZGl0YXRpb24lMjBjYWxtfGVufDB8MHx8fDE3NTg5MTM3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=iGUs-mwlpTo"
-                                     alt="Mindfulness meditation calm scene" class="w-full h-44 sm:h-48 object-cover opacity-90">
-                                <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
-                            </div>
-                            <div class="p-6">
-                                <div class="flex items-center justify-between mb-4">
-                                    <span class="inline-flex items-center px-3 py-1 bg-blue-900/30 text-blue-400 rounded-full text-sm">
-                                        <i class="fas fa-brain mr-1" aria-hidden="true"></i>Test Architecture & Strategy
-                                    </span>
-                                    <span class="text-xs text-gray-500">Feb 18, 2024</span>
-                                </div>
-                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Mindfulness and Mental Wellness</h3>
-                                <p class="text-gray-400 mb-4 leading-relaxed">Practical techniques and strategies for maintaining mental test architecture & strategy in today's stressful environment.</p>
-                                <div class="flex justify-between items-center pt-4 border-t border-gray-700/50">
-                                    <span class="text-amber-400 text-sm font-medium">Wellness Digest</span>
-                                    <a href="#" class="text-blue-400 hover:text-blue-300 transition-all duration-300 transform hover:translate-x-1">
-                                        Read More <i class="fas fa-arrow-right ml-1" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 5 -->
-                        <div x-show="filter==='All' || filter==='Tools & Frameworks'" x-transition
-                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-emerald-400/50">
-                            <div class="relative">
-                                <img src="https://images.unsplash.com/photo-1561553162-e34e4ed32841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxTb3V0aGVhc3QlMjBBc2lhJTIwbGFuZHNjYXBlJTIwaGlkZGVuJTIwZ2Vtc3xlbnwwfDB8fHwxNzU4OTEzNzI1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=Q6I7aCWnO8g"
-                                     alt="Hidden gems of Southeast Asia landscape" class="w-full h-44 sm:h-48 object-cover opacity-90">
+                                <img src="https://images.unsplash.com/photo-1731702981357-dbbe3ab354a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdyaXRpbmclMjBhaSUyMGFic3RyYWN0JTIwZGFya3xlbnwwfDB8fHwxNzU4OTEzNzIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=JaEePXsjUJM"
+                                     alt="Invoice Flow Screenshot" class="w-full h-44 sm:h-48 object-cover opacity-90">
                                 <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center justify-between mb-4">
                                     <span class="inline-flex items-center px-3 py-1 bg-emerald-900/30 text-emerald-400 rounded-full text-sm">
-                                        <i class="fas fa-plane mr-1" aria-hidden="true"></i>Tools & Frameworks
+                                        <i class="fas fa-microchip mr-1" aria-hidden="true"></i>Automation
                                     </span>
-                                    <span class="text-xs text-gray-500">Jan 12, 2024</span>
                                 </div>
-                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Hidden Gems of Southeast Asia</h3>
-                                <p class="text-gray-400 mb-4 leading-relaxed">Discovering lesser-known destinations that offer authentic cultural experiences beyond tourist trails.</p>
-                                <div class="flex justify-between items-center pt-4 border-t border-gray-700/50">
-                                    <span class="text-amber-400 text-sm font-medium">Wanderlust Chronicles</span>
-                                    <a href="#" class="text-blue-400 hover:text-blue-300 transition-all duration-300 transform hover:translate-x-1">
-                                        Read More <i class="fas fa-arrow-right ml-1" aria-hidden="true"></i>
+                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Automation & Systems Projects Collection</h3>
+                                <p class="text-gray-400 mb-4 leading-relaxed">Collection of automation frameworks, CI configurations and structured system projects focused on reliability and maintainability.</p>
+                                <ul class="text-gray-300 text-sm space-y-2 mb-6">
+                                    <li>• Cypress & Playwright examples</li>
+                                    <li>• CI configuration patterns</li>
+                                    <li>• Dockerized test environments</li>
+                                    <li>• Structured project architecture examples</li>
+                                    <li>• TypeScript-based test organization</li>
+                                </ul>
+                                <div class="flex justify-center gap-4">
+                                    <a href="https://github.com/AlixBarreaux/invoice-flow"
+                                        class="px-4 py-2 bg-emerald-500 text-black rounded-lg font-medium hover:bg-emerald-400 transition">
+                                        View Code
+                                    </a>
+
+                                    <a href="#"
+                                        class="px-4 py-2 border border-gray-600 text-gray-300 rounded-lg hover:border-emerald-400 hover:text-white transition">
+                                        Live Demo
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <!-- Project 6 -->
-                        <div x-show="filter==='All' || filter==='Miscellaneous Skills'" x-transition
-                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50">
+                        <!-- Project 3 -->
+                        <div x-show="filter==='All' || filter==='Automation'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-blue-400/50">
                             <div class="relative">
-                                <img src="https://images.unsplash.com/photo-1581508512961-0e3b9524db40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxpbmRlcGVuZGVudCUyMHB1Ymxpc2hpbmclMjBib29rcyUyMHByaW50aW5nJTIwcHJlc3N8ZW58MHwwfHx8MTc1ODkxMzcyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=EgB66PkGZbQ"
-                                     alt="Independent publishing - printing press and books" class="w-full h-44 sm:h-48 object-cover opacity-90">
+                                <img src="https://images.unsplash.com/photo-1731702981357-dbbe3ab354a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdyaXRpbmclMjBhaSUyMGFic3RyYWN0JTIwZGFya3xlbnwwfDB8fHwxNzU4OTEzNzIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=JaEePXsjUJM"
+                                     alt="Invoice Flow Screenshot" class="w-full h-44 sm:h-48 object-cover opacity-90">
                                 <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center justify-between mb-4">
-                                    <span class="inline-flex items-center px-3 py-1 bg-purple-900/30 text-purple-400 rounded-full text-sm">
-                                        <i class="fas fa-book mr-1" aria-hidden="true"></i>Miscellaneous Skills
+                                    <span class="inline-flex items-center px-3 py-1 bg-emerald-900/30 text-emerald-400 rounded-full text-sm">
+                                        <i class="fas fa-microchip mr-1" aria-hidden="true"></i>Automation
                                     </span>
-                                    <span class="text-xs text-gray-500">Dec 5, 2023</span>
                                 </div>
-                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">The Renaissance of Independent Publishing</h3>
-                                <p class="text-gray-400 mb-4 leading-relaxed">How digital platforms are empowering writers and fundamentally changing the publishing industry landscape.</p>
-                                <div class="flex justify-between items-center pt-4 border-t border-gray-700/50">
-                                    <span class="text-amber-400 text-sm font-medium">Literary Review</span>
-                                    <a href="#" class="text-blue-400 hover:text-blue-300 transition-all duration-300 transform hover:translate-x-1">
-                                        Read More <i class="fas fa-arrow-right ml-1" aria-hidden="true"></i>
+                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Wirk - Cypress Automation Strategy</h3>
+                                <p class="text-gray-400 mb-4 leading-relaxed">Designed and maintained structured Cypress automation suite for critical web application flows.</p>
+                                <ul class="text-gray-300 text-sm space-y-2 mb-6">
+                                    <li>• Built regression coverage from 0% to ~80%</li>
+                                    <li>• Identified architectural testability issues</li>
+                                    <li>• Improved automation stability and CI reliability</li>
+                                    <li>• Coordinated QA freelancers</li>
+                                    <li>• Contributed to automation tooling decisions</li>
+                                </ul>
+                                <div class="flex justify-center gap-4">
+                                    <a href="https://github.com/AlixBarreaux/invoice-flow"
+                                        class="px-4 py-2 bg-emerald-500 text-black rounded-lg font-medium hover:bg-emerald-400 transition">
+                                        View Code
+                                    </a>
+
+                                    <a href="#"
+                                        class="px-4 py-2 border border-gray-600 text-gray-300 rounded-lg hover:border-emerald-400 hover:text-white transition">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 4 -->
+                        <div x-show="filter==='All' || filter==='Automation'" x-transition
+                                 class="projects-card bg-gray-800/30 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-amber-400/50">
+                            <div class="relative">
+                                <img src="https://images.unsplash.com/photo-1731702981357-dbbe3ab354a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdyaXRpbmclMjBhaSUyMGFic3RyYWN0JTIwZGFya3xlbnwwfDB8fHwxNzU4OTEzNzIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=TailFlux&photo_id=JaEePXsjUJM"
+                                     alt="Invoice Flow Screenshot" class="w-full h-44 sm:h-48 object-cover opacity-90">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="inline-flex items-center px-3 py-1 bg-emerald-900/30 text-emerald-400 rounded-full text-sm">
+                                        <i class="fas fa-microchip mr-1" aria-hidden="true"></i>Automation
+                                    </span>
+                                </div>
+                                <h3 class="text-xl font-semibold mb-3 text-white leading-tight">Open Source Contributions - Stronghold Crusader</h3>
+                                <p class="text-gray-400 mb-4 leading-relaxed">Contributed via GitHub pull requests to the Unofficial Crusader Patch. Credited in the Definitive Edition release.</p>
+                                <ul class="text-gray-300 text-sm space-y-2 mb-6">
+                                    <li>• Code review collaboration via GitHub</li>
+                                    <li>• Patch validation & regression testing</li>
+                                    <li>• Community driven development workflow</li>
+                                </ul>
+                                <div class="flex justify-center gap-4">
+                                    <a href="https://github.com/AlixBarreaux/invoice-flow"
+                                        class="px-4 py-2 bg-emerald-500 text-black rounded-lg font-medium hover:bg-emerald-400 transition">
+                                        View Code
+                                    </a>
+
+                                    <a href="#"
+                                        class="px-4 py-2 border border-gray-600 text-gray-300 rounded-lg hover:border-emerald-400 hover:text-white transition">
+                                        Live Demo
                                     </a>
                                 </div>
                             </div>
@@ -474,8 +457,10 @@
                     <h2 class="text-4xl font-bold mb-6">
                         <span class="gradient-text">Contact</span>
                     </h2>
-                    <p class="text-gray-300 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">
+                    <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed ">
                         Available for freelance and short-term QA / SDET contracts.
+
+                        
                         Email: alixbarreaux@proton.me
                         LinkedIn: https://www.linkedin.com/in/alix-barreaux/
                         GitHub: https://github.com/AlixBarreaux
